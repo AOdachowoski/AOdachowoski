@@ -1,94 +1,37 @@
-# Dev. Front-End
+## 🙆‍♂️ &nbsp;Apresentação
 
-Sua tarefa é construir um aplicativo para a aplicação BlogPosts. A aplicação é um simples crud de posts de blog, com seus títulos e suas descrições. Utilize um repositório Git (público, de preferência) para versionamento e disponibilização do código.
+<h3> <img src='https://github.githubassets.com/images/mona-loading-default.gif' width='30px' style='vertical-align:middle'> Hello World 👋, sou a Amanda Karoline Odachowoski</h3>
 
-O aplicativo deve ser construído em React Native, utilizando [este style guide](https://www.behance.net/gallery/84764869/UI-and-UX-Style-Guide) e seguindo os wireframes apresentados abaixo.
+## 💻 &nbsp;Sobre
 
-## O que será avaliado
+- 🏠 Residente em SC.
+- 💪 Forte em linguagem web
+- 🚀 Apaixonada por tecnologia
+- 📫 E-mail: amandaodachowoski1903@gmail.com
 
-Queremos avaliar sua capacidade de desenvolver e documentar a aplicação. Serão avaliados:
+## 👥 &nbsp;Social
 
--   Código bem escrito e limpo;
--   Quais ferramentas foram usadas, como e porquê;
--   Seu conhecimento na construção de componentes reutilizáveis, consumo de APIs REST;
--   Sua capacidade de se comprometer com o que foi fornecido (wireframe, styleguide);
--   Sua capacidade de documentação da sua parte da aplicação.
+<a href="https://www.linkedin.com/in/amandaodachowoski/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+<a href="AOdachowoski#8925" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a>
+<a href = "mailto:amandaodachowoski1903@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 
-## O mínimo necessário
+## 💻 &nbsp;Skills
 
-- As telas seguindo os wireframes a seguir e utilizando a API disponibilizada ao fim deste documento;
-- README.md contendo informações básicas do projeto e como executá-lo.
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 
-## Bônus
+## 📊 &nbsp;Estatísticas
 
-Os seguintes itens não são obrigatórios, mas darão mais valor ao seu trabalho (os em negrito são mais significativos para nós e serão considerados um diferencial):
+<img align="center"
+    src="https://github-readme-stats.vercel.app/api/top-langs?username=AOdachowoski&show_icons=true&locale=en&bg_color=0d1117&text_color=ffffff&layout=compact"
+    alt="AOdachowoski" 
+    bg_color=#808080/>
 
--   Uso de ferramentas ou bibliotecas externas que facilitem o seu trabalho;
--   Cuidados especiais com otimização, padrões, entre outros;
--   **React Hooks**;
--   **Typescript**;
--   **Gerenciamento de estado com Redux, MobX ou Context API**;
--   **Requisições assíncronas com redux-saga, redux-thunk ou alternativas**;
--   **Testes**;
--   **Documentação dos componentes utilizando ferramentas como Storybook**;
--   Sugestões sobre o desafio embasadas em alguma argumentação.
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=AOdachowoski&show_icons=true&locale=en&bg_color=0d1117&text_color=ffffff&repo=convoychat"
+    alt="AOdachowoski" />
 
-# User Stories e wireframes
-
-## 1: O(A) usuário(a) deve poder ver a lista de todos os posts cadastrados e adicionar um novo post
-
-Listar posts:
-
-`GET /posts`
-
-Adicionar novo post:
-
-`POST /posts Content-Type: application/json`
-
-```json
-{
-    "title": "foo",
-    "body": "bar",
-    "userId": 1
-}
-```
-
-![Crud - Adicionar](https://cdn.discordapp.com/attachments/700348106419470369/747478882550153346/unknown.png)
-
-
-## 2: O(A) usuário(a) deve poder clicar em remover um post e o post ser removido da listagem
-
-Remover um post:
-
-`DELETE /posts/{id}`
-
-![Crud - Remover](https://cdn.discordapp.com/attachments/700348106419470369/747479006814929126/unknown.png)
-
-## 3: O(A) usuário(a) deve poder utilizar o input de busca para realizar uma busca por um post
-
-Buscar pelo `title` de um post:
-
-`GET /posts?title=qui%20est%20esse`
-
-===============================================================================================
-
-## Critérios de Aceitação
-
--   O aplicativo deve ser codificado seguindo:
-    - Os fluxos definidos no wireframe acima (listar, adicionar, remover e buscar);
-    - A estilização dos componentes necessários, tipografia, e espaçamentos de acordo com a Style Guide: [UI and UX Style Guide](https://www.behance.net/gallery/84764869/UI-and-UX-Style-Guide);
-    - A API disponibilizada logo abaixo.
-
-# API
-
-A base url a ser utilizada será esta: `https://jsonplaceholder.typicode.com`.
-
-Por exemplo, para listar os posts deve ser feita uma requisição para: `https://jsonplaceholder.typicode.com/posts`.
-
-E assim por diante seguindo os endpoints demonstrados no wireframe acima.
-
-## Importante
-
-Esta é uma fake api, se for adicionado um post, por exemplo, o post não é persistido no servidor, mas é retornado uma `response` para que o post seja adicionado na listagem. O mesmo deve ser lembrado para remoção.
-
-Bom trabalho!
+<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=AOdachowoski&theme=dark&background=0d1117&date_format=M%20j%5B%2C%20Y%5D" alt="AOdachowoski" />
