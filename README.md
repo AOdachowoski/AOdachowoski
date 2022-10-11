@@ -4,7 +4,7 @@
 
 ## 💻 &nbsp;Sobre
 
-- 🏠 Residente em SC.
+- 🏠 Residente em SC
 - 💪 Forte em linguagem web
 - 🚀 Apaixonada por tecnologia
 - 📫 E-mail: amandaodachowoski1903@gmail.com
