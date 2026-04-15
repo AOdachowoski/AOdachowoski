@@ -3,7 +3,7 @@
 - Desenvolvedora Front-end 🖥
 - Amante de jogos 🕹
 - Apaixonada pelo meu trabalho 🥰
-- E-mail: amandaodachowoski1903@gmail.com 💌
+- E-mail: odachowoski.dev@gmail.com 💌
 
 
 <div style="display: inline_block"><br>
